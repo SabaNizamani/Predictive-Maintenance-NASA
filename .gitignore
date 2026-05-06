@@ -1,0 +1,25 @@
+# ── Data Files (NASA dataset — download separately from NASA website)
+data/*.txt
+data/*.csv
+data/*.zip
+
+# ── Auto-generated outputs (created when you run the pipeline)
+outputs/*.png
+outputs/*.csv
+outputs/*.txt
+
+# ── Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# ── OS files
+.DS_Store
+Thumbs.db
+
+# ── VS Code
+.vscode/
+.idea/
